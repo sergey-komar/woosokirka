@@ -1,0 +1,270 @@
+body{
+    max-width: unset !important;
+}
+.header.header-home{
+    height: auto;
+    min-height: fit-content;
+}
+.caption{
+    background: #383838;;
+}
+.caption .wrapper{
+    background: #383838;;
+}
+.woocommerce-result-count{
+    color: #858585;
+    font-size: 14px;
+}
+.sort-menu{
+    margin-left: auto;
+    padding: 5px;
+    width: 200px;
+} 
+.sort-menu .orderby{
+    padding: 5px;
+    margin-left: auto;
+}
+.products__detail{
+    width: 65%;
+}
+.woocommerce-loop-product__title{
+    width: 100%;
+    font-family: 'bitter', serif;
+    font-size: 16px;
+    max-width: 205px;
+}
+.product-sale{
+    transform: translateY(-30px);
+}
+.products__bottom{
+    transform: translateY(20px);
+}
+
+.product-sale > .onsale {
+    background-color: #ff4a5d;
+    padding: 5px;
+    color: #fff;
+}
+.products__but{
+    display: block;
+}
+.pagination .page-numbers{
+    display: flex;
+}
+.nav-links{
+    justify-content: center;
+}
+.products__item{
+    min-height: 320px;
+}
+.woocommerce-product-details__short-description p{
+    font-size: 25px;
+}
+.product_title.entry-title{
+    font-weight: 700;
+    margin: 22px 0 4px;
+}
+.cart{
+    padding: 0;
+}
+.input-text{
+    padding: 0 !important;
+}
+.cart .quantity{
+    width: 150px;
+}
+.minus,
+.plus{
+    width: 80px !important;
+    height: 35px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.product__price span  span{
+    font-size: 27px !important;
+}
+.product__price{
+    margin-right: 0;
+}
+.cart .quantity{
+    margin: 0;
+}
+.product-cart .onsale{
+    position: relative;
+    transform: translate(60px, 20px);
+    padding: 5px;
+    display: inline-block;
+    height: 20px;
+    color: #fff;
+    background-color: #ff4a5d;
+    z-index: 9;
+}
+.btn:before{
+    width: 223px;
+}
+.avatar.avatar-60.photo{
+    width: 200px;
+}
+.clients__say .star-rating{
+    margin-left: auto;
+}
+.single-product .star-rating {
+    width: 5.4em!important;
+    height: 1.8em!important;
+}
+.woocommerce .star-rating{
+    line-height: 2;
+}
+.woocommerce .star-rating span{
+    padding-top: 2.5rem !important;
+}
+
+/* убираем стрелочки добавления + и - на странице одного товара */
+.product-card.product-type-simple input::-webkit-outer-spin-button,
+.product-card.product-type-simple input::-webkit-inner-spin-button,
+.product-card.product-type-variable input::-webkit-outer-spin-button,
+.product-card.product-type-variable input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.product-card.product-type-simple input[type=number],
+.product-card.product-type-variable input[type=number] {
+    -moz-appearance: textfield;
+}
+/* убираем стрелочки добавления + и - на странице одного товара */
+
+/* input */
+
+.woocommerce .quantity .qty, .quantity input{
+    width: 100%;
+} 
+.quantity{
+    display: flex !important;
+   
+}
+.form-control{
+    border: none !important;
+    font-size: 40px !important;
+    height: 50px !important;
+}
+.shop_table.woocommerce-checkout-review-order-table{
+    width: 100%;
+    border: 1px solid #e3e3e3;
+}
+.shop_table.woocommerce-checkout-review-order-table tr{
+    border-bottom: 1px solid #e3e3e3;
+    height: 40px;
+}
+
+
+
+
+
+
+
+/* РЕЙТИНГ */
+.products .rate {
+    width: auto;
+    background-size: 0px 0px;
+    margin: 0;
+}
+.woostudy-rating {
+    height: 20px;
+}
+.woostudy-rating .woostudy-rating-count {
+    position: relative;
+    right: -68px;
+    top: -20px;
+}
+@font-face {
+    font-family:star;
+    src:url(../fonts/star.eot);
+    src:url(../fonts/star.eot?#iefix) format("embedded-opentype"),url(../fonts/star.woff) format("woff"),url(../fonts/star.ttf) format("truetype"),url(../fonts/star.svg#star) format("svg");
+    font-weight:400;
+    font-style:normal;
+}
+@font-face {
+    font-family:WooCommerce;
+    src:url(../fonts/WooCommerce.eot);
+    src:url(../fonts/WooCommerce.eot?#iefix) format("embedded-opentype"),url(../fonts/WooCommerce.woff) format("woff"),url(../fonts/WooCommerce.ttf) format("truetype"),url(../fonts/WooCommerce.svg#WooCommerce) format("svg");
+    font-weight:400;
+    font-style:normal;
+}
+.products .product .star-rating {
+    font-size: .857em;
+}
+.woocommerce .star-rating {
+    /* float: right; */
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-size: 1em;
+    width: 5.4em;
+    font-family: star;
+}
+.woocommerce .star-rating::before {
+    content: "sssss";
+    color: #d3ced2;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.woocommerce .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+.woocommerce .star-rating span::before {
+    content: "SSSSS";
+    top: 0;
+    position: absolute;
+    left: 0;
+    color: #FFD333;
+}
+.woocommerce .woocommerce-product-rating {
+    line-height: 2;
+    display: block;
+}
+.woocommerce .woocommerce-product-rating::after,
+.woocommerce .woocommerce-product-rating::before {
+    content: " ";
+    display: table;
+}
+.woocommerce .woocommerce-product-rating::after {
+    clear: both;
+}
+.woocommerce .woocommerce-product-rating .star-rating {
+    margin: .5em 4px 0 0;
+    float: left;
+}
+.woocommerce .products .star-rating {
+    display: block;
+    margin: 0 0 .5em;
+    float: none;
+}
+.woocommerce .hreview-aggregate .star-rating {
+    margin: 10px 0 0;
+}
+
+.products .product .star-rating,
+.products .wc-block-grid__product .star-rating,
+.wc-block-grid__products .product .star-rating,
+.wc-block-grid__products .wc-block-grid__product .star-rating {
+    margin: 0 auto .5407911001em;
+}
+.woocommerce p.stars a{position:relative;height:1em;width:1em;text-indent:-999em;display:inline-block;text-decoration:none}
+.woocommerce p.stars a::before{display:block;position:absolute;top:0;left:0;width:1em;height:1em;line-height:1;font-family:WooCommerce;content:"\e021";text-indent:0}
+.woocommerce p.stars a:hover~a::before{content:"\e021"}
+.woocommerce p.stars:hover a::before{content:"\e020"}
+.woocommerce p.stars.selected a.active::before{content:"\e020"}
+.woocommerce p.stars.selected a.active~a::before{content:"\e021"}
+.woocommerce p.stars.selected a:not(.active)::before{content:"\e020"}
+/* Star rating */
+
